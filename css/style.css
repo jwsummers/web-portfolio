@@ -1,0 +1,65 @@
+html { 
+  background: url(http://www.funkyartsy.com/wp-content/uploads/2011/08/portfolio-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+ul.topnav {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+ul.topnav li.icon {display: none;}
+
+#portrait {
+     margin-top: 40px;
+    display: block;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    float: right;
+    background-color: transparent;
+}
+#intro{
+   margin-top: 40px;
+  display: block;
+  float: left;
+  padding: 20px;
+  font-size: 60px;
+  color: #00BFFF;
+  background-color: transparent;  
+}
+
+body {
+  background-color: transparent;
+}
+.jumbotron{
+  background-color: black;
+  color: white;
+}
